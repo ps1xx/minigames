@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Game</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            background: #0f172a;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+        button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+            border: none;
+            background: #22c55e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🎰 Mini Game Menu</h1>
+
+<button onclick="play()">Играть</button>
+<button onclick="balance()">Баланс</button>
+
+<script>
+    let tg = window.Telegram.WebApp;
+    tg.expand();
+
+    function play() {
+        alert("Игра началась (сюда вставишь crash/slot)");
+    }
+
+    function balance() {
+        alert("Баланс: 1000");
+    }
+</script>
+
+</body>
+</html>
