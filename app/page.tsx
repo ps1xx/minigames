@@ -10,7 +10,10 @@ export default function Page() {
       fontSize: "40px",
       flexDirection: "column"
     }}>
-      💥 CRASH GAME WORKS
+      <div>IT WORKS 🚀</div>
+      <div style={{fontSize: 20, marginTop: 10}}>
+        CRASH TEST PAGE
+      </div>
     </div>
   );
 }
